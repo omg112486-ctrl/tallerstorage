@@ -1,6 +1,6 @@
 window.onload = function () {
 
-    // RETO 3
+    
     let nombre = localStorage.getItem("nombre");
     let ciudad = localStorage.getItem("ciudad");
 
@@ -8,7 +8,7 @@ window.onload = function () {
         "Hola, <strong>" + nombre + "</strong>, de <strong>" + ciudad + "</strong>";
 }
 
-// RETO 4
+
 function borrarDatos() {
 
     localStorage.clear();
