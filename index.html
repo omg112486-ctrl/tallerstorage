@@ -1,31 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>taller 1</title>
-    <script src="taller1.js" defer></script>
+    <title>Taller Storage</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="taller1.js"></script>
+
 </head>
+
 <body>
-<body>
 
-<div class="contenedor">
+    <div class="contenedor">
 
-    <h1>📦 Taller SessionStorage</h1>
+        <h1>📦 Taller Storage</h1>
 
-    <label>Nombre:</label>
-    <input type="text" id="nombre">
+        <p class="subtitulo">
+            Almacenamiento de datos con Local Storage
+        </p>
 
-    <button onclick="guardar()">Guardar e ir</button>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Ingrese su nombre">
 
-    <div class="mensaje">
-        Los datos se almacenarán utilizando Session Storage.
+        <label for="ciudad">Ciudad</label>
+        <input type="text" id="ciudad" placeholder="Ingrese su ciudad">
+
+        <button onclick="guardar()">
+            Guardar e ir
+        </button>
+
+        <div class="mensaje">
+            Los datos quedarán almacenados incluso al cerrar el navegador.
+        </div>
+
     </div>
 
-</div>
+    
 
 </body>
-    
-</body>
+
 </html>

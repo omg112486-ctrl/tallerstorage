@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>página 2</title>
-    <script src="taller2.js" defer></script>
+    <title>Página 2</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="taller2.js"></script>
 </head>
-<body>
-    <h1>página 2</h1>
 
-    <p id="saludo"></p>
-    <button id="btn-borra">borrar el nombre 1</button>
-    <a href="taller1.html">volver a la página 1</a>
+<body>
+
+    <div class="contenedor">
+
+        <h1>👋 Bienvenido</h1>
+
+        <div id="saludo" class="mensaje"></div>
+
+        <button onclick="borrarDatos()">
+            🗑️ Borrar Datos
+        </button>
+
+    </div>
+
+    
+
 </body>
+
 </html>

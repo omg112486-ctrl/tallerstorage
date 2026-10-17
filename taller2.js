@@ -1,16 +1,19 @@
-function mostrarNombre(){
-    const nombre = sessionStorage.getItem("nombre");
-    if (nombre ===null){
-        document.getElementById("saludo").textContent = "No hay ningun nombre guardado.";
-    } else {
-        document.getElementById("saludo").textContent = "Hola, " + nombre;
-    }
-}
-function borrar() {
-    sessionStorage.removeItem("nombre");
-    mostrarNombre();
-}
-document.addEventListener("DOMContentLoaded",mostrarNombre);
+window.onload = function () {
 
-document.getElementById("btn-borrar").addEventListener("click", borrar);
-    
+    // RETO 3
+    let nombre = localStorage.getItem("nombre");
+    let ciudad = localStorage.getItem("ciudad");
+
+    document.getElementById("saludo").innerHTML =
+        "Hola, <strong>" + nombre + "</strong>, de <strong>" + ciudad + "</strong>";
+}
+
+// RETO 4
+function borrarDatos() {
+
+    localStorage.clear();
+
+    alert("Datos eliminados correctamente.");
+
+    window.location.href = "index.html";
+}
