@@ -9,6 +9,7 @@ window.onload = function () {
 }
 
 
+
 function borrarDatos() {
 
     localStorage.clear();

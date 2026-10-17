@@ -13,5 +13,6 @@ function guardar() {
     localStorage.setItem("ciudad", ciudad);
 
     
+    
     window.location.href = "taller2.html";
 }

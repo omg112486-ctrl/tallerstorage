@@ -6,7 +6,7 @@
 
 body{
     font-family:'Segoe UI',sans-serif;
-    background:linear-gradient(135deg,#0f172a,#1e40af,#2563eb);
+    background:linear-gradient(135deg,#626e8a,#1e40af,#2563eb);
     min-height:100vh;
     display:flex;
     justify-content:center;
@@ -17,7 +17,7 @@ body{
 .contenedor{
     width:100%;
     max-width:700px;
-    background:white;
+    background:rgb(126, 99, 99);
     padding:40px;
     border-radius:20px;
     box-shadow:0 15px 40px rgba(0,0,0,.25);
@@ -25,7 +25,7 @@ body{
 
 h1{
     text-align:center;
-    color:#1e3a8a;
+    color:#7785ac;
     margin-bottom:15px;
 }
 
